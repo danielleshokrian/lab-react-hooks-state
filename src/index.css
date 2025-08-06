@@ -54,6 +54,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+.app.light {
+  background-color: #ffffff;
+  color: #213547;
+}
+
+.app.dark {
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
